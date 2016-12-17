@@ -23,13 +23,6 @@ app.post('/login', function(req, res){
 	res.send('OK');
 });
 
-//Lays
-app.get('/lays', function(req, res){
-	res.send('Lays não ama o namorado!!')
-})
-
-
-
 app.listen(port, function(){
 	console.log('Servidor no ar na porta ' + port);
 });
