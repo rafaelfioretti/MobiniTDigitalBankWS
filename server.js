@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 //Serviço Hello World
 app.get('/helloworld', function(req, res){
-	res.send('Hello World!!');
+	res.send('Hello MobinIT!!');
 });
 
 //Serviço de Login
